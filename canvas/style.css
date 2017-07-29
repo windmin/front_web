@@ -1,0 +1,14 @@
+canvas {
+    border: 1px solid black;
+}
+
+section {
+    display: flex;
+    /*flex-direction: row;*/
+    /*flex-wrap: wrap;*/
+    flex-flow: row wrap;
+}
+
+article {
+    flex: 1;
+}
