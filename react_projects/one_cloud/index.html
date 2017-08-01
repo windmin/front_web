@@ -4,62 +4,111 @@
     <meta charset="UTF-8">
     <title>首页</title>
     <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/index.css">
 </head>
 <body>
     <div class="container max-page-width">
-        <nav class="navbar-collapse collapse">
-            <ul class="nav navbar-nav">
-                <li><a href="#">最新活动</a></li>
-                <li><a href="#">解决方案</a></li>
-                <li><a href="#">需求发布</a></li>
-                <li><a href="#">社区</a></li>
-                <li><a href="#">我的需求</a></li>
-                <li><a href="#">我的账号</a></li>
-            </ul>
-            <ul class="nav navbar-nav navbar-right">
-                <li><a href="#">登录</a></li>
-                <li><a href="#">注册</a></li>
-            </ul>
+        <nav class="navbar navbar-default navbar-fixed-top">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                </div>
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1" role="navigation">
+                    <ul class="nav navbar-nav">
+                        <li><a href="#">最新活动</a></li>
+                        <li><a href="#">解决方案</a></li>
+                        <li><a href="#">需求发布</a></li>
+                        <li><a href="#">社区</a></li>
+                        <li><a href="#">我的需求</a></li>
+                        <li><a href="#">我的账号</a></li>
+                    </ul>
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="#">登 录</a></li>
+                        <li class="separator hidden-xs">|</li>
+                        <li><a href="#">注 册</a></li>
+                    </ul>
+                </div>
+            </div>
         </nav>
 
-        <section class="row">
-            <aside class="col-lg-4"><h2>Column 1</h2></aside>
-            <article class="col-lg-4"><h2>Column 2</h2></article>
-            <aside class="col-lg-4"><h2>Column 3</h2></aside>
+        <section class="row index-header-section">
+            <header class="col-md-6 col-md-offset-3 index-header">
+                <img class="index-logo" src="images/logo-l.png">
+                <h1 class="index-title">一片云</h1>
+                <h2 class="index-sub-title">项目协作开发平台</h2>
+                <section class="index-search">
+                    <div class="index-search-example"><p>搜索案例</p></div>
+                    <div class="index-or"><p>或</p></div>
+                    <div class="index-release-requirement"><p>发布需求</p></div>
+                </section>
+            </header>
         </section>
-        <section class="row">
-            <aside class="col-lg-4 col-lg-offset-4"><h2>Column 3</h2></aside>
+
+        <section class="row index-main-article index-main-article-1">
+            <article class="col-md-3 article-1-1">
+                <h3>网站建设</h3>
+                <p>鲲玖泵业报价系统</p>
+                <p>烈火一族官网</p>
+                <p>天来节能官网</p>
+                <p>MotionLabs官网</p>
+            </article>
+            <article class="col-md-6 article-1-2"><img src="images/index/image-1.png"></article>
+            <article class="col-md-3 article-1-3">
+                <h3>APP开发</h3>
+                <p>Onetouch Move</p>
+                <p>iMandarin Online</p>
+                <p>天来节能蓝牙设备调试系统</p>
+                <p>UP光伏</p>
+            </article>
         </section>
+
+        <section class="row index-main-article index-main-article-2">
+            <article class="col-md-3 article-2-1">
+                <h3>工具软件</h3>
+                <p>天来节能蓝牙设备调试系统</p>
+                <p>UP光伏</p>
+            </article>
+            <article class="col-md-3 article-2-2">
+                <h3>微信小程序</h3>
+                <p>51微校</p>
+                <p>UP光伏</p>
+                <p>蓝牙设备调试系统</p>
+            </article>
+            <article class="col-md-3 article-2-3"><img src="images/index/image-2.png"></article>
+            <article class="col-md-3 article-2-4">
+                <h3>企业软件</h3>
+                <p>鲲玖泵业报价系统</p>
+                <p>面试系统</p>
+            </article>
+        </section>
+
+        <section class="row index-main-article index-main-article-3">
+            <article class="col-md-3 article-3-1"><img src="images/index/image-3.png"></article>
+            <article class="col-md-3 article-3-2">
+                <h3>嵌入式软件</h3>
+                <p>GoWatch智能手表</p>
+                <p>心电监测仪</p>
+            </article>
+            <article class="col-md-3 article-3-3">
+                <h3>UI设计</h3>
+                <p>无人机UI界面</p>
+                <p>CRM网站界面</p>
+                <p>PCB速诊仪界面</p>
+            </article>
+            <article class="col-md-3 article-3-4"><img src="images/index/image-4.png"></article>
+        </section>
+
+        <footer>
+            footer
+        </footer>
     </div>
 
-    <!--<nav class="navbar navbar-inverse navbar-fixed-top">-->
-        <!--<div class="container">-->
-            <!--<div class="navbar-header">-->
-                <!--<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">-->
-                    <!--<span class="sr-only">Toggle navigation</span>-->
-                    <!--<span class="icon-bar"></span>-->
-                    <!--<span class="icon-bar"></span>-->
-                    <!--<span class="icon-bar"></span>-->
-                <!--</button>-->
-                <!--<a class="navbar-brand" href="#">Project name</a>-->
-            <!--</div>-->
-            <!--<div id="navbar" class="collapse navbar-collapse">-->
-                <!--<ul class="nav navbar-nav">-->
-                    <!--<li class="active"><a href="#">Home</a></li>-->
-                    <!--<li><a href="#about">About</a></li>-->
-                    <!--<li><a href="#contact">Contact</a></li>-->
-                <!--</ul>-->
-            <!--</div>-->
-        <!--</div>-->
-    <!--</nav>-->
-
-    <!--<div class="container-2">-->
-        <!--<div class="starter-template">-->
-            <!--<h1>Bootstrap starter template</h1>-->
-            <!--<p class="lead">Use this document as a way to quickly start any new project.<br> All you get is this text and a mostly barebones HTML document.</p>-->
-        <!--</div>-->
-    <!--</div>-->
 
     <script src="js/jquery-3.2.1.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
