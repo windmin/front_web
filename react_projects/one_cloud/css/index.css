@@ -1,6 +1,6 @@
 /*@font-face {*/
-    /*font-family: "myPingFang";*/
-    /*src: url("../fonts/PingFangSC-Regular.otf");*/
+/*font-family: "myPingFang";*/
+/*src: url("../fonts/PingFangSC-Regular.otf");*/
 /*}*/
 
 
@@ -77,7 +77,7 @@ div.max-page-width.container {
  * 首页logo部分样式
  */
 .index-header-section {
-    margin-top: 83px;
+    margin-top: 153px;
     margin-left: 0;
     margin-right: 0;
 }
@@ -183,7 +183,15 @@ div.max-page-width.container {
     font-size: 12px;
     line-height: 17px;
     margin-top: 5px;
-    margin-bottom: 5px;
+    margin-bottom: 0;
+}
+
+.index-main-article h4 {
+    margin: 0;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
 }
 
 .index-main-article h3 + p{
@@ -294,3 +302,52 @@ div.max-page-width.container {
     color: #161616;
 }
 
+/*
+ * index-main-article鼠标hover事件
+ */
+
+.article-1-1-s1 {
+    display: none;
+    position: absolute;
+    top: 527px;
+    z-index: 1;
+    background-image: linear-gradient(143deg, #3a92f0, rgba(58, 146, 240, 0.62));
+    height: 554px;
+    padding-left: 25px;
+    padding-right: 0;
+    padding-top: 30px;
+}
+
+.article-1-1-s1 p {
+    margin-top: 2px;
+}
+
+.article-1-1-s1 h4{
+    margin-top: 51px;
+}
+
+.article-1-1-s1 h4:first-child,.article-1-1-s2 h4:first-child {
+    margin-top: 0;
+}
+
+.article-1-1-s2 {
+    display: none;
+    position: absolute;
+    top: 527px;
+    z-index: 1;
+    background-image: linear-gradient(208deg, #eef7ff, rgba(238, 247, 255, 0.92));
+    height: 554px;
+    padding-left: 22px;
+    padding-right: 0;
+    padding-top: 30px;
+}
+
+.article-1-1-s2 p {
+    color: #000000;
+    margin-top: 4px;
+}
+
+.article-1-1-s2 h4{
+    color: #000000;
+    margin-top: 48px;
+}
